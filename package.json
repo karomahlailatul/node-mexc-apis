@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0",
-  "name": "node-mexc-api",
+  "version": "1.0.1",
+  "name": "node-mexc-apis",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/halil07/node-mexc-api.git"
+    "url": "git://github.com/karomahlailatul/node-mexc-apis.git"
   },
-  "author": "Halil Ceyhan <halilceyhan05@gmail.com>",
+  "author": "Halil Ceyhan <halilceyhan05@gmail.com>, and Edit some api by Karomah Lailatul",
   "keywords": [
     "mexc",
     "api"

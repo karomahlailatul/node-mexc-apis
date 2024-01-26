@@ -226,7 +226,7 @@ export default class Spot extends Mexc {
         return this.publicRequestV3('GET', `${this.spotBaseUrlV3}exchangeInfo`)
     }
 
-    depth(params: {symbol: string}) {
+    depth(params: {symbol: string, limit?: number}) {
         return this.publicRequestV3(
             'GET',
             `${this.spotBaseUrlV3}depth`,
